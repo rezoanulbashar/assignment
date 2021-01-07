@@ -1,0 +1,215 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16x;
+    font-weight: 400;
+    width: 1200px;
+    margin: 0px auto;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+img{
+    width: 100%;
+}
+.header-section{
+    width: 100%;
+}
+.half-width{
+    float: left;
+
+    width: 45%;
+    margin-right: 100px;
+}
+.half-width:last-child{
+    margin-right: 0px;
+}
+.header-section{
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.half-width h1{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.half-width p{
+    color: #3E3E3E;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 500;
+}
+.half-width button{
+    background-image: linear-gradient(to left, #585DE0, #452CBB);
+    padding: 25px 70px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.half-width button:hover{
+    cursor: pointer;
+}
+.half-width button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-half-section{
+    margin-top: 80px;
+}
+.fa-download {
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 15px;
+}
+.about-section .half-width button{
+    background-image: linear-gradient(to left, #F59560, #F9C461);
+    padding: 25px 70px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.about-section{
+    overflow: hidden;
+    width: 100%;
+
+}
+.portfolio-section{
+    background-color: #F8F9FC;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+    padding: 100px 30px;
+}
+
+.single-portfolio{
+    width: 28%;
+    margin-right: 2%;
+    float: left;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #c2c2c2;
+}
+.single-portfolio:last-child{
+    margin-right: 0%;
+}
+.single-portfolio img{
+    width: 100%;
+}
+.single-portfolio h2{
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.single-portfolio p {
+    color: #6C6C6C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.contact-section {
+    width: 80%;
+    margin: 0px auto;
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    padding: 36px 0px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-work{
+    width: 40%;
+    float: left;
+}
+.contact-work button{
+    margin-left: 90%;
+    margin-top: 43px;
+    padding: 25px 30px;
+    width: 175px;
+    background-image: linear-gradient(to left, #F59560, #FF8063);
+    border: none;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contact-work h1{
+    padding-left: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 62px;
+    letter-spacing: 5px;
+}
+footer{
+    width: 60%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    overflow: hidden;
+
+}
+footer h2{
+    text-align: center;
+    color: #696871;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3px;
+}
+footer h1{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+
+
+
+ul {
+    width: 30%;
+    margin: 0px auto;
+}
+ul li{
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+ul li img{
+    width: 40px;
+    margin-right: 20px;
+    vertical-align: center;
+}
+.heading{
+    margin: 30px 0px 50px 0px;
+    overflow: hidden;
+}
+.heading ul{
+    float: right;
+}
+
+.heading ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+}
